@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header{
+    background-color: #E18335;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding :10px;
+}
+.header-list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+}
+.header-list  a{
+
+    text-decoration: none;
+    color: black;
+}
+.header-list> a:hover{
+    text-decoration: underline;
+}
+.contacts{
+    display:flex;
+    gap: 5px;
+    list-style: none;
+    align-items: center;
+}
+.contacts>a{
+    text-decoration: none;
+    color: black;
+}
+.contacts>a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: rgba(0,0,255,0.5);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.motto{
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.little{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.little> p{
+    margin-top: 60px;
+    text-align: center;
+    vertical-align: center;
+}
+.young{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.young>p{
+    margin-top: 60px;
+    text-align: center;
+    vertical-align: center;
+}
+.adults{
+    display:flex;
+    padding: 10px;
+    gap: 10px;
+}
+.adults>p{
+    margin-top: 60px;
+    text-align: center;
+    vertical-align:center;
+}
+footer{
+    background-color:#CDD7D6;
+}
