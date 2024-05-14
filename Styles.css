@@ -21,8 +21,7 @@ nav{
     align-items: center;
     height: 54px;
 }
-.header-list  a{
-
+.header-list>a{
     text-decoration: none;
     color: black;
 }
@@ -109,4 +108,7 @@ footer>h3{
     text-align: center;
     font-style: italic;
 }
-
+.hero-img{
+    display: block;
+    margin: 0 auto;
+}
