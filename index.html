@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matrial Arts informacion</title>
     <link rel="Stylesheet" href="Styles.css">
 </head>
 <body>
-    <script>
-         const nomb = prompt("Hola, Cual es tu nombre?");
-         //let Color = prompt("Cual es tu color favorito?")
-    </script>
     <header class="header-main">
         <nav >
-            <!--Logo? -->
             <div class="header-list">
                 <img src="taekwondo.png" width="50px">
                 <a href="index.html">Home</a>
@@ -27,14 +22,7 @@
         </nav>
     </header>
     <main>
-        <script>
-            //if(color !== null && color !== ""){document.footer.style.backgroundColor = color;}
-            if (nomb !==null && nomb !== "") {
-                document.write("Hola " + nomb + " aqui informacion que te pueda interesar");
-            }else{
-                document.write("Hola!, aqui info que te pueda interesar");
-            }
-        </script>
+        <div id="Hello">Hola!, aqui info que te pueda interesar</div>
         <img src="images.jpg" class="hero-img" width="500px">
         <h1>Las Artes marciales y su impacto en las personas</h1>
         <p class="motto">Las artes marciales son nuna gran forma de traer diciplina y ejercicio a las personas ya ayudan a maximizar el potencial tanto mental como deportivo de tanto niños como adultos</p>
@@ -69,6 +57,12 @@
         </div>
     </main>
     <footer class="footer">
+        <!--<h2>No te gusta el color de nuestro pie de pagina? <strong>Cambialo!</strong></h2>
+        <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker" name="colorPicker" value="#ff0000">
+    <div id="selectedColor" style="margin-top: 20px;">
+        Selected color: <span id="colorValue">#ff0000</span>-->
+    </div>
         <h2>FAQ</h2>
         <h3>Las preguntas mas frecuentes de parte de los padres y los estudiantes</h3>
         <ul>
@@ -93,5 +87,6 @@
             </div>
         </ul>
     </footer>
+    <script src="Script.js"></script>
 </body>
 </html>
