@@ -112,3 +112,7 @@ footer>h3{
     display: block;
     margin: 0 auto;
 }
+#popupButton{
+    margin: 10px;
+    background-color: lightblue;
+}
